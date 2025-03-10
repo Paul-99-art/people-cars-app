@@ -1,0 +1,125 @@
+  .site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+  }
+  
+  .layout {
+    min-height: 100vh;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .form-container {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .person-card {
+    margin-bottom: 20px;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+    width: 100%;
+  }
+  
+  .car-card {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .edit-form {
+    margin-top: 10px;
+  }
+  
+  .nav-link {
+    margin-top: 10px;
+    display: inline-block;
+    color: #1890ff;
+    text-decoration: underline;
+  }
+ 
+  .add-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  input {
+    padding: 4px 11px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    height: 32px;
+  }
+  
+  button {
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 4px 15px;
+    height: 32px;
+    cursor: pointer;
+  }
+  
+  .records-container {
+    margin-top: 30px;
+  }
+  
+  .records-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .person-name {
+    font-weight: bold;
+    padding: 10px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .car-info {
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button, .delete-button {
+    cursor: pointer;
+    padding: 4px 8px;
+    color: #1890ff;
+  }
+  
+  .delete-button {
+    color: red;
+  }
+  
+  select {
+    padding: 4px 11px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    height: 32px;
+  }
+  
+  .field-label {
+    margin-right: 5px;
+  }
