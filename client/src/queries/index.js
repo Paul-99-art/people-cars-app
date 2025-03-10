@@ -1,6 +1,5 @@
 import { gql } from '@apollo/client';
 
-// Queries
 export const GET_PEOPLE = gql`
   query GetPeople {
     people {
@@ -47,7 +46,6 @@ export const GET_CARS = gql`
   }
 `;
 
-// Mutations
 export const ADD_PERSON = gql`
   mutation AddPerson($firstName: String!, $lastName: String!) {
     addPerson(firstName: $firstName, lastName: $lastName) {

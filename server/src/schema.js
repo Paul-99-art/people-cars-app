@@ -1,7 +1,6 @@
 const { gql } = require('apollo-server-express');
 const { find, remove, filter } = require('lodash');
 
-// Initial data
 const people = [
   {
     id: '1',
@@ -95,7 +94,6 @@ const cars = [
   }
 ];
 
-// GraphQL schema
 const typeDefs = gql`
   type Person {
     id: ID!
@@ -133,7 +131,6 @@ const typeDefs = gql`
   }
 `;
 
-// Resolver functions
 const resolvers = {
   Query: {
     people: () => people,
@@ -177,7 +174,6 @@ const resolvers = {
       
       const [person] = people.splice(personIndex, 1);
       
-      // Also delete all cars owned by this person
       remove(cars, car => car.personId === id);
       
       return person;

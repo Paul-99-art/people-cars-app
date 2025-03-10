@@ -19,7 +19,7 @@ const AddCarForm = () => {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
   if (!data || !data.people || data.people.length === 0) {
-    return null; // Hide the form when there are no people
+    return null; 
   }
 
   const onFinish = values => {
